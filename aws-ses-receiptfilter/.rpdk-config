@@ -1,0 +1,15 @@
+{
+    "typeName": "AWS::SES::ReceiptFilter",
+    "language": "java",
+    "runtime": "java8",
+    "entrypoint": "software.amazon.ses.receiptfilter.HandlerWrapper::handleRequest",
+    "testEntrypoint": "software.amazon.ses.receiptfilter.HandlerWrapper::testEntrypoint",
+    "settings": {
+        "namespace": [
+            "software",
+            "amazon",
+            "ses",
+            "receiptfilter"
+        ]
+    }
+}
